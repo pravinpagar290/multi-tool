@@ -40,10 +40,11 @@ export default function Translator() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            from: "en",
-            to: "hi",
-            text: "hello world",
-          }),
+  from: fromLang,
+  to: toLang,
+  text: inputText,
+}),
+
         }
       );
       const data = await res.json();
