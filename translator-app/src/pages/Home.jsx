@@ -5,13 +5,15 @@ export default function Home() {
   const features = [
     {
       title: "Text Translator",
-      description: "Translate text from English to your favorite language using RapidAPI integration.",
+      description:
+        "Translate text from English to your favorite language using RapidAPI integration.",
       icon: Languages,
       path: "/translate",
     },
     {
       title: "Random String Generator",
-      description: "Generate random strings with customizable length and character types using React hooks.",
+      description:
+        "Generate random strings with customizable length and character types using React hooks.",
       icon: Shuffle,
       path: "/generate",
     },
@@ -26,7 +28,8 @@ export default function Home() {
             Welcome to Multi-Tool App
           </h1>
           <p className="text-black/60 max-w-2xl mx-auto text-sm md:text-base">
-            A collection of useful tools built with React and Tailwind CSS. Explore our translator and random string generator features.
+            A collection of useful tools built with React and Tailwind CSS.
+            Explore our translator and random string generator features.
           </p>
         </div>
 
@@ -42,7 +45,9 @@ export default function Home() {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <Icon className="w-6 h-6 text-black" />
-                    <h3 className="text-lg font-semibold text-black">{title}</h3>
+                    <h3 className="text-lg font-semibold text-black">
+                      {title}
+                    </h3>
                   </div>
                   <p className="text-sm text-black/60">{description}</p>
                 </div>
